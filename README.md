@@ -9,7 +9,7 @@ The J&J MTIE Expert Guide Cohort 2 materials are the foundation, not a productio
 1. Read [AGENTS.md](AGENTS.md), the canonical tool-neutral workflow and confidentiality guide.
 2. Scan the [knowledge index](knowledge/00_index.md) and [coverage matrix](curriculum/coverage_matrix.md).
 3. Choose a [playbook](playbooks/) for the task; its steps link to the relevant `/skills/<name>/SKILL.md`.
-4. Use the role agent under `.github/agents/` where supported, or follow its Markdown contract in any coding agent.
+4. Read the role contract under [`agents/`](agents/) or use the thin VS Code discovery wrapper under `.github/agents/`.
 5. Capture decisions with the templates in `templates/`, then run project tests and relevant evals.
 
 ## Learning
@@ -34,7 +34,7 @@ Project requirements are pinned separately to avoid installing unrelated stacks.
 
 ## Agents and Tools
 
-There are ten role contracts in `.github/agents/`: orchestrator, problem framer, data engineer, feature engineer, model trainer, model evaluator, MLOps deployer, monitor, GenAI/agent engineer, and tutor. `.github/prompts/` provides focused slash prompts. `CLAUDE.md` and `.github/copilot-instructions.md` are thin pointers; other tools should read `AGENTS.md` directly.
+There are ten tool-neutral role contracts in [`agents/`](agents/): orchestrator, problem framer, data engineer, feature engineer, model trainer, model evaluator, MLOps deployer, monitor, GenAI/agent engineer, and tutor. Reusable prompts live in [`prompts/`](prompts/); skills live in [`skills/`](skills/). `.github/agents/` and `.github/prompts/` contain only thin VS Code discovery wrappers. `CLAUDE.md` and `.github/copilot-instructions.md` point to `AGENTS.md`.
 
 ## Confidentiality
 

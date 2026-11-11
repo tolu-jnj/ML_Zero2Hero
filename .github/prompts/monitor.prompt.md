@@ -4,10 +4,4 @@ agent: ml-monitor
 argument-hint: "Provide system purpose, baseline, label delay, service needs, and owners."
 ---
 
-Read [AGENTS.md](../../AGENTS.md), the [drift-monitoring skill](../../skills/drift-monitoring/SKILL.md), and the [monitoring plan template](../../templates/monitoring_plan.md).
-
-Design monitoring for:
-
-${input:system:System, baseline, outcomes, latency/cost needs, and owners}
-
-Return signals, baseline/threshold method, window, severity, owner, response, rollback, and retraining gate. Distinguish data drift from measured performance decay. Mark missing evidence `[GAP]`.
+Apply the canonical [monitor prompt](../../prompts/monitor.prompt.md) to the user's request. Keep this file as a discovery adapter only.

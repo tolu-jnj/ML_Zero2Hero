@@ -73,7 +73,7 @@ Each agent file defines its invocation conditions, inputs, outputs, skills, guar
 
 ## Prompts and Playbooks
 
-Reusable editor prompts live in `.github/prompts/`; the same task can be run by any agent using the linked Markdown prompt. Playbooks are under `playbooks/` and cover data quality, tabular classification, anomaly detection, lead-time regression, CV segmentation, RAG/LLM apps, and agentic workflows.
+Canonical agent contracts live in `agents/` and reusable prompts live in `prompts/`; both are plain Markdown and tool-neutral. VS Code discovery wrappers live in `.github/agents/` and `.github/prompts/`. Playbooks are under `playbooks/` and cover data quality, tabular classification, anomaly detection, lead-time regression, CV segmentation, RAG/LLM apps, and agentic workflows.
 
 ## Projects and Validation
 

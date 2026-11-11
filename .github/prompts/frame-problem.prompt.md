@@ -4,10 +4,4 @@ agent: ml-problem-framer
 argument-hint: "Describe the business decision, users, known data, and constraints."
 ---
 
-Read [AGENTS.md](../../AGENTS.md) and the [problem-framing skill](../../skills/problem-framing/SKILL.md).
-
-Frame this request:
-
-${input:request:Business request and context}
-
-Return the problem framing canvas, current baseline, candidate metric/error costs, feasibility risks, non-ML alternatives, open questions, and a proceed/investigate/stop recommendation. Cite course claims with `[COURSE: ...]`, external recommendations with `[EXTERNAL: ...]`, and missing evidence with `[GAP]`.
+Apply the canonical [frame-problem prompt](../../prompts/frame-problem.prompt.md) to the user's request. Keep this file as a discovery adapter only.

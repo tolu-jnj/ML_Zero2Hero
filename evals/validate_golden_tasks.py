@@ -12,7 +12,7 @@ def validate() -> list[str]:
     data = json.loads(TASK_FILE.read_text(encoding="utf-8"))
     expected_agents = {
         path.name.removesuffix(".agent.md")
-        for path in (ROOT / ".github" / "agents").glob("*.agent.md")
+        for path in (ROOT / "agents").glob("*.agent.md")
     }
     errors = []
     observed_agents = set()
