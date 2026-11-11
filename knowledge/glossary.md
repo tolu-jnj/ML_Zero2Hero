@@ -1,0 +1,15 @@
+# Glossary
+
+- **Anomaly detection**: identifying observations that differ from expected patterns; the course applies Isolation Forest to order monitoring. [COURSE: 03 Expert Guide C2 W3 Live Event.pdf#slides 5-7]
+- **Class imbalance**: unequal representation among target classes; the course shows why a majority-class accuracy score can mislead. [COURSE: 02_Week_2_Transcript.txt#lines 100-121]
+- **Feature engineering**: constructing or transforming inputs to express useful information for a model; the lead-time case uses time, operational, lag, and rolling features. [COURSE: 04 Expert Guide C2 W4 Live Event.pdf#slide 6]
+- **GenAI**: in the course's Week 6 framing, AI that generates content. [COURSE: 06_Week_6_Transcript.txt#lines 20-40]
+- **Graph transformer**: a graph-based model described in the lead-time case as passing contextual information over connected orders/materials; course details are insufficient to reproduce the architecture. [COURSE: 04 Expert Guide C2 W4 Live Event.pdf#slide 7] [GAP]
+- **Hallucination**: a course term for plausible but unsupported or incorrect generated output. [COURSE: 05_Week_5_Transcript.txt#lines 221-248]
+- **Isolation Forest**: an unsupervised anomaly method explained in the course through short random-partition paths for unusual points. [COURSE: 03 Expert Guide C2 W3 Live Event.pdf#slide 6]
+- **RAG**: retrieval-augmented generation, named in the course pathway; implementation and evaluation detail are not taught. [COURSE: 05 Expert Guide C2 W5 Live Event.pdf#slide 3] [GAP]
+- **Regularization**: adding a penalty to a model loss; the course introduces L1 and L2. [COURSE: 02 Expert Guide C2 W2 Live Event.pdf#slide 7]
+- **Semantic segmentation**: classifying image pixels into semantic categories, illustrated in the computer-vision slides. [COURSE: 05 Expert Guide C2 W5 Live Event.pdf#slide 4]
+- **Agentic AI**: in the course framing, a workflow that combines generative models with tools and other capabilities to automate multi-step tasks, sometimes with human review. [COURSE: 06_Week_6_Transcript.txt#lines 20-40]
+- **Data leakage**: information unavailable at prediction time influencing training or evaluation; the course names no operational leakage-check process. [EXTERNAL: official scikit-learn model-selection documentation] [GAP]
+- **Drift**: a change in production data or outcome behavior; the course discusses changing patterns but does not define a monitoring test. [COURSE: 01_Week_1_Transcript.txt#lines 73-84] [GAP]
