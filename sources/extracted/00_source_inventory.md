@@ -25,6 +25,7 @@ The workspace contains 16 files before these extracted notes are added:
 
 - The listed source files remain in their original locations and are unmodified. No approval to move them into `sources/raw/` has been given.
 - All seven transcripts and all seven decks were reviewed. Deck text was extracted page-by-page with a temporary PDF parser outside the repository; the session notes cite specific slide/page anchors.
+- The visible title slides identify the 2026 Week 4, Week 5, and Week 6 sessions, while the embedded PDF title metadata for those decks says Cohort 1. Treat the displayed slide content as the session evidence and retain the metadata discrepancy as unresolved. [?] [COURSE: 04 Expert Guide C2 W4 Live Event.pdf#PDF metadata; slide 1] [COURSE: 05 Expert Guide C2 W5 Live Event.pdf#PDF metadata; slide 1] [COURSE: 06 Expert Guide C2 W6 Live Event.pdf#PDF metadata; slide 1]
 - `README.md` contains only its title heading at this stage; no other existing project documentation or code was present in the inventory.
 - Session notes preserve the distinction between transcript claims and slide content. Auto-generated transcript wording that may change the meaning is marked `[?]`; obvious terms are normalized only when the deck or surrounding context confirms the correction.
 

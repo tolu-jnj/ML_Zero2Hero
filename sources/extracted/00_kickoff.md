@@ -26,6 +26,7 @@
 ## Unclear Points
 
 - The transcript has automated speech-recognition errors in names and technical terms; the presentation identifies the expert guide as Dr. Nariman Jahani, so that spelling is used here. [COURSE: 00 Expert Guide C2 Kickoff.pdf#slide 8] [COURSE: 00_Expert_Guide_Kickoff_Transcript.txt#lines 1-8]
+- The deck says "7 Topics Across 6 Weeks" but lists eight topic bullets; the materials do not explain the count. [?] [COURSE: 00 Expert Guide C2 Kickoff.pdf#slide 4]
 - The calendar is program-specific and is not an ML workflow or general recommendation. [COURSE: 00 Expert Guide C2 Kickoff.pdf#slide 5]
 
 ## Go Deeper
