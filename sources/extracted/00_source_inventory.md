@@ -24,7 +24,7 @@ The workspace contains 16 files before these extracted notes are added:
 ## Handling
 
 - The listed source files remain in their original locations and are unmodified. No approval to move them into `sources/raw/` has been given.
-- All seven transcripts and all seven decks were reviewed. Deck text was extracted page-by-page with a temporary PDF parser outside the repository; the extracted text indicates the full page count for each deck and includes slide/page anchors below.
+- All seven transcripts and all seven decks were reviewed. Deck text was extracted page-by-page with a temporary PDF parser outside the repository; the session notes cite specific slide/page anchors.
 - `README.md` contains only its title heading at this stage; no other existing project documentation or code was present in the inventory.
 - Session notes preserve the distinction between transcript claims and slide content. Auto-generated transcript wording that may change the meaning is marked `[?]`; obvious terms are normalized only when the deck or surrounding context confirms the correction.
 
