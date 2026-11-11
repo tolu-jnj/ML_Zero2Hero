@@ -1,0 +1,31 @@
+# Local data and generated outputs
+/data/
+/datasets/
+/models/
+/artifacts/
+/mlruns/
+/outputs/
+*.parquet
+*.joblib
+*.pkl
+*.pt
+*.pth
+*.onnx
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+
+# Python and editor artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
