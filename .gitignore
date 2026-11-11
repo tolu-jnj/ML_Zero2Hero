@@ -4,6 +4,9 @@
 /models/
 /artifacts/
 /mlruns/
+**/mlruns/
+*.db
+*.db-*
 /outputs/
 *.parquet
 *.joblib
